@@ -1,4 +1,10 @@
-import { Navbar, Container, NavDropdown, Nav} from "react-bootstrap";
+import Navbar from "react-bootstrap/Navbar";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import CardWiget from "./CardWiget";
+
+
 
 const NavBar = () => {
 return (
@@ -19,6 +25,7 @@ return (
             </NavDropdown>
             </Nav>
             </Navbar.Collapse>
+            <CardWiget/>
         </Container>
     </Navbar>
     </div>
