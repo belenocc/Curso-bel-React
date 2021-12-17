@@ -13,7 +13,6 @@ const Itemcount=({max, inicial}) => {
         value > inicial ? setValue(value - 1) : alert('compra minima');
       };
     
-    
     return (
         <div>
             <h1>{value}</h1>
